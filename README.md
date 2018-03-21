@@ -3,6 +3,11 @@ Script for helping you to convert a normal WordPress site to use composer for pl
 
 ![Demo](https://raw.githubusercontent.com/pelmered/wp-to-composer/master/demo.gif)
 
+## Requirements:
+* [WP-CLI](https://wp-cli.org/)
+* PHP CLI
+* Linux/Unix terminal
+
 ## USAGE:
 
 ### Download script:
