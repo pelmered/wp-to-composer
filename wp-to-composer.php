@@ -7,11 +7,13 @@
  * wget https://raw.githubusercontent.com/pelmered/wp-to-composer/master/wp-to-composer.php
  *
  * Basic usage:
- * php convert-to-composer.php
+ * php wp-to-composer.php
  * And then follow the instructions
  *
  * Options
- * php convert-to-composer.php --path=public/wp --url=https://www.example.com --version
+ *
+ * All options
+ * php wp-to-composer.php --path=public/wp --url=https://www.example.com --repo=https://satis.example.com/satispress/packages.json --version
  *
  * path - specify path to WordPress core files. Same as WP CLI path
  * url - specify url to site(needed for multisite)
