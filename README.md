@@ -21,12 +21,13 @@ Wait until the script finishes, and then follow the instructions.
 Example with all options: 
 `php wp-to-composer.php --path=public/wp --url=https://www.example.com --repo=https://satis.example.com/satispress/packages.json --version`
 
-* **path** - specify path to WordPress core files. Same as WP CLI path
-* **url** - specify url to site(needed for multisite)
+* **path** - specify path to WordPress core files. Same as WP CLI path. For example, for bedrock you should use `--path=app/wp`.
+* **url** - specify url to site(needed for multisite with subdomains or domain mapping). 
 * **version** - Use latest version in generated composer.json(for example "^2.3.1"). Omitting this sets "*" as version.
 * **repo** - Specify custom composer repo url
 
 ## TODO / Roadmap
 
-* Global config file
+* Global config file with default options(so you don't have to pass repo and other things as an argument every time)
 * What do you want? Send me feedback!
+* Rewite/refactor of the current spaghetti code
