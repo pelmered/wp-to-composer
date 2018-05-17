@@ -260,7 +260,7 @@ if ( isset( $lines ) && is_array( $lines ) ) {
 				continue;
 			}
 
-			echo 'Plugin: ' . $plugin['name'] . ' found on packagist. But has multiple matches.' . "\n";
+			echo 'Plugin: ' . $plugin['name'] . ' found on packagist. But has multiple candidates.' . "\n";
 
 			$option = 1;
 			foreach ( $data['results'] as $option => $package ) {
