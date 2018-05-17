@@ -283,6 +283,7 @@ if ( isset( $lines ) && is_array( $lines ) ) {
 				$found_plugins[] = '"' . $data['results'][0]['name'] . '":"' . $version . '",';
 
 				echo 'Plugin: ' . $package_name . ' added from packagist.' . "\n";
+				continue;
 			}
 
 			echo 'Plugin: ' . $plugin['name'] . ' skipped.' . "\n";
